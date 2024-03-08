@@ -69,6 +69,5 @@ def openVideo1(args, event, queue):
 def openVideo(args, event, queue):
     asyncio.run(camera.open_camera(args, event, queue))
 
-
 if __name__ == '__main__':
     main()

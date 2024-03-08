@@ -1,10 +1,5 @@
-import asyncio
-import threading
-import time
 import cv2 as cv
-
 from config import cameraId
-from websocketServer import VideoWs
 class Camera:
     __cap = None
     isOpen = False
